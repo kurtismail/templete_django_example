@@ -1,8 +1,14 @@
 {% extends 'base.html' %}
+{% load static %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'students/main.css' %}">
+{% endblock link %}
+
 {% block title %}
 home
 {% endblock title %}
 
+
 {% block body %}
-<h1>this is my PAGE...</h1>
+<h1>Hello this is home PAGESS..</h1>
 {% endblock body %}
