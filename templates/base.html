@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,15 @@
     {% block link %}
     <link rel="stylesheet" href="{% static 'main.css' %}">
     {% endblock link %}
-    
+
     <title>{% block title %}students{% endblock title %}</title>
 
 </head>
+
 <body>
     {% block body %}
-    
-    {% endblock body %} 
+
+    {% endblock body %}
 </body>
+
 </html>
